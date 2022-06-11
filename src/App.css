@@ -1,38 +1,51 @@
-.App {
-  text-align: center;
+.bi-list{
+   cursor: pointer;
+}
+.yt {
+   padding-top: 20px;
+   padding-bottom: 20px;
+   /* box-shadow: 2px 2px 3px black; */
+   font-size: 5%;
+}
+.bi-youtube {
+   color: red;
+   cursor: pointer;
+}
+.bi-search {
+   color: black;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.youtube {
+   color: black;
+}
+.search_btn,
+.search_input {
+   background-color: white;
+   font-size: 0.8em;
+   border: none;
+}
+.search_btn {
+   background-color: rgb(207, 205, 205);
+}
+.search_mic {
+   border: none;
+   background-color: white;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.search_div {
+   border: solid black;
+   background-color: rgb(207, 205, 205);
+}
+.extra_ions {
+   cursor: pointer;
+}
+.bi-person-circle{
+   color: blue;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
-}
+/* VideoListDefaultItem */
 
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.videoComponent:hover {
+   background-color: rgb(211, 207, 207);
+   box-shadow: 2px 2px 2px 2px black;
 }
